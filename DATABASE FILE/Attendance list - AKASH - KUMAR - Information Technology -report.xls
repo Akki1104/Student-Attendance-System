@@ -1,0 +1,63 @@
+
+<table border="1">
+    <thead>
+        <tr>
+            <th colspan="11">Subject</th>
+        </tr>
+        
+<tr>
+<th colspan="11">E-Commerce</th>
+</tr>        <tr>
+            <th>S.No.</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Phone Number</th>
+            <th>Roll Number</th>
+            <th>Branch</th>
+            <th>Year</th>
+            <th>Semester</th>
+            <th>Session</th>
+            <th>Status</th>
+            <th>Date</th>
+        </tr>
+    </thead>
+    
+                <tr>
+                  <td>1</td>
+                  <td>AKASH<?td>
+                  <td>KUMAR</td>
+                  <td>8077891205</td>
+                  <td>21012120004</td>
+                  <td>Information Technology</td>
+                  <td>Third</td>
+                  <td>Fifth</td>
+                  <td>2023-2024</td>
+                  <td style='background-color:#00FF00'>Present</td>
+                  <td>2023-11-27</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>AKASH<?td>
+                  <td>KUMAR</td>
+                  <td>8077891205</td>
+                  <td>21012120004</td>
+                  <td>Information Technology</td>
+                  <td>Third</td>
+                  <td>Fifth</td>
+                  <td>2023-2024</td>
+                  <td style='background-color:#00FF00'>Present</td>
+                  <td>2023-12-04</td>
+                </tr>        </tbody>
+        <thead class="thead-light">
+            <tr>
+                <th>Total Present</th>
+                <th>Total Absent</th>
+            </tr>
+        </thead>
+
+        <tbody>
+        
+        <tr>
+          <td>0</td>
+          <td></td>
+          </tr></table>

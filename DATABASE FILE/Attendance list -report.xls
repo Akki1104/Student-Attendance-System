@@ -1,0 +1,474 @@
+
+<table border="1">
+    <thead>
+        <tr>
+            <th colspan="13">Subject</th>
+        </tr>
+        
+            <tr>
+            <th colspan="13">E-Commerce</th>
+            </tr>        <tr>
+            <th>S.No.</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Phone Number</th>
+            <th>Roll Number</th>
+            <th>Branch</th>
+            <th>Year</th>
+            <th>Semester</th>
+            <th>Session</th>
+            <th>Present</th>
+            <th>Absent</th>
+            <th>From Date</th>
+            <th>to Date</th>
+        </tr>
+    </thead>
+      
+                    <tr>  
+                    <td>1</td> 
+                    <td>ABHISHEK</td> 
+                    <td>NAUTIYAL</td> 
+                    <td>6497790946</td> 
+                    <td>21012120001</td> 
+                    <td>Information Technology</td> 
+                    <td>Third</td>	
+                    <td>Fifth</td>	
+                    <td>2023-2024</td>	
+                    <td>1</td>
+                    <td>0</td>
+                    <td>2023-11-03</td>
+                    <td>2023-12-04</td>				
+                    </tr>  
+                      
+                    <tr>  
+                    <td>2</td> 
+                    <td>ADITYA</td> 
+                    <td>KURIYAL</td> 
+                    <td>6542896988</td> 
+                    <td>21012120002</td> 
+                    <td>Information Technology</td> 
+                    <td>Third</td>	
+                    <td>Fifth</td>	
+                    <td>2023-2024</td>	
+                    <td>1</td>
+                    <td>0</td>
+                    <td>2023-11-03</td>
+                    <td>2023-12-04</td>				
+                    </tr>  
+                      
+                    <tr>  
+                    <td>3</td> 
+                    <td>AJAY</td> 
+                    <td>RAMOLA</td> 
+                    <td>6120851953</td> 
+                    <td>21012120003</td> 
+                    <td>Information Technology</td> 
+                    <td>Third</td>	
+                    <td>Fifth</td>	
+                    <td>2023-2024</td>	
+                    <td>1</td>
+                    <td>0</td>
+                    <td>2023-11-03</td>
+                    <td>2023-12-04</td>				
+                    </tr>  
+                      
+                    <tr>  
+                    <td>4</td> 
+                    <td>AKASH</td> 
+                    <td>KUMAR</td> 
+                    <td>8077891205</td> 
+                    <td>21012120004</td> 
+                    <td>Information Technology</td> 
+                    <td>Third</td>	
+                    <td>Fifth</td>	
+                    <td>2023-2024</td>	
+                    <td>1</td>
+                    <td>0</td>
+                    <td>2023-11-03</td>
+                    <td>2023-12-04</td>				
+                    </tr>  
+                      
+                    <tr>  
+                    <td>5</td> 
+                    <td>AMRITAM</td> 
+                    <td>JUGLAN</td> 
+                    <td>7442133483</td> 
+                    <td>21012120005</td> 
+                    <td>Information Technology</td> 
+                    <td>Third</td>	
+                    <td>Fifth</td>	
+                    <td>2023-2024</td>	
+                    <td>1</td>
+                    <td>0</td>
+                    <td>2023-11-03</td>
+                    <td>2023-12-04</td>				
+                    </tr>  
+                      
+                    <tr>  
+                    <td>6</td> 
+                    <td>ANANT</td> 
+                    <td>PAL</td> 
+                    <td>7111548043</td> 
+                    <td>21012120025</td> 
+                    <td>Information Technology</td> 
+                    <td>Third</td>	
+                    <td>Fifth</td>	
+                    <td>2023-2024</td>	
+                    <td>1</td>
+                    <td>0</td>
+                    <td>2023-11-03</td>
+                    <td>2023-12-04</td>				
+                    </tr>  
+                      
+                    <tr>  
+                    <td>7</td> 
+                    <td>ANKIT</td> 
+                    <td>CHAND</td> 
+                    <td>6879732908</td> 
+                    <td>21012120006</td> 
+                    <td>Information Technology</td> 
+                    <td>Third</td>	
+                    <td>Fifth</td>	
+                    <td>2023-2024</td>	
+                    <td>1</td>
+                    <td>0</td>
+                    <td>2023-11-03</td>
+                    <td>2023-12-04</td>				
+                    </tr>  
+                      
+                    <tr>  
+                    <td>8</td> 
+                    <td>ANUSHKA</td> 
+                    <td>SINGH</td> 
+                    <td>7892514027</td> 
+                    <td>21012120007</td> 
+                    <td>Information Technology</td> 
+                    <td>Third</td>	
+                    <td>Fifth</td>	
+                    <td>2023-2024</td>	
+                    <td>1</td>
+                    <td>0</td>
+                    <td>2023-11-03</td>
+                    <td>2023-12-04</td>				
+                    </tr>  
+                      
+                    <tr>  
+                    <td>9</td> 
+                    <td>ASHISH</td> 
+                    <td>ASWAL</td> 
+                    <td>6173777857</td> 
+                    <td>21012120008</td> 
+                    <td>Information Technology</td> 
+                    <td>Third</td>	
+                    <td>Fifth</td>	
+                    <td>2023-2024</td>	
+                    <td>1</td>
+                    <td>0</td>
+                    <td>2023-11-03</td>
+                    <td>2023-12-04</td>				
+                    </tr>  
+                      
+                    <tr>  
+                    <td>10</td> 
+                    <td>BHANU</td> 
+                    <td></td> 
+                    <td>6056293307</td> 
+                    <td>21012120026</td> 
+                    <td>Information Technology</td> 
+                    <td>Third</td>	
+                    <td>Fifth</td>	
+                    <td>2023-2024</td>	
+                    <td>1</td>
+                    <td>0</td>
+                    <td>2023-11-03</td>
+                    <td>2023-12-04</td>				
+                    </tr>  
+                      
+                    <tr>  
+                    <td>11</td> 
+                    <td>JITENDRA</td> 
+                    <td>SINGH KHANDARI</td> 
+                    <td>8505132928</td> 
+                    <td>21012120009</td> 
+                    <td>Information Technology</td> 
+                    <td>Third</td>	
+                    <td>Fifth</td>	
+                    <td>2023-2024</td>	
+                    <td>1</td>
+                    <td>0</td>
+                    <td>2023-11-03</td>
+                    <td>2023-12-04</td>				
+                    </tr>  
+                      
+                    <tr>  
+                    <td>12</td> 
+                    <td>MITUL</td> 
+                    <td>KUMAR</td> 
+                    <td>6748175878</td> 
+                    <td>21012120027</td> 
+                    <td>Information Technology</td> 
+                    <td>Third</td>	
+                    <td>Fifth</td>	
+                    <td>2023-2024</td>	
+                    <td>1</td>
+                    <td>0</td>
+                    <td>2023-11-03</td>
+                    <td>2023-12-04</td>				
+                    </tr>  
+                      
+                    <tr>  
+                    <td>13</td> 
+                    <td>NEERAJ</td> 
+                    <td>RAWAT</td> 
+                    <td>8753397284</td> 
+                    <td>21012120010</td> 
+                    <td>Information Technology</td> 
+                    <td>Third</td>	
+                    <td>Fifth</td>	
+                    <td>2023-2024</td>	
+                    <td>1</td>
+                    <td>0</td>
+                    <td>2023-11-03</td>
+                    <td>2023-12-04</td>				
+                    </tr>  
+                      
+                    <tr>  
+                    <td>14</td> 
+                    <td>NIKITA</td> 
+                    <td>RAWAT</td> 
+                    <td>6074518317</td> 
+                    <td>21012120011</td> 
+                    <td>Information Technology</td> 
+                    <td>Third</td>	
+                    <td>Fifth</td>	
+                    <td>2023-2024</td>	
+                    <td>1</td>
+                    <td>0</td>
+                    <td>2023-11-03</td>
+                    <td>2023-12-04</td>				
+                    </tr>  
+                      
+                    <tr>  
+                    <td>15</td> 
+                    <td>NITISH</td> 
+                    <td>KOTHIYAL</td> 
+                    <td>7004275431</td> 
+                    <td>21012120028</td> 
+                    <td>Information Technology</td> 
+                    <td>Third</td>	
+                    <td>Fifth</td>	
+                    <td>2023-2024</td>	
+                    <td>1</td>
+                    <td>0</td>
+                    <td>2023-11-03</td>
+                    <td>2023-12-04</td>				
+                    </tr>  
+                      
+                    <tr>  
+                    <td>16</td> 
+                    <td>PRABHAKAR</td> 
+                    <td>KUMAR</td> 
+                    <td>6020641308</td> 
+                    <td>21012120012</td> 
+                    <td>Information Technology</td> 
+                    <td>Third</td>	
+                    <td>Fifth</td>	
+                    <td>2023-2024</td>	
+                    <td>1</td>
+                    <td>0</td>
+                    <td>2023-11-03</td>
+                    <td>2023-12-04</td>				
+                    </tr>  
+                      
+                    <tr>  
+                    <td>17</td> 
+                    <td>PREETI</td> 
+                    <td>MISSHEWAN</td> 
+                    <td>8836057926</td> 
+                    <td>21012120013</td> 
+                    <td>Information Technology</td> 
+                    <td>Third</td>	
+                    <td>Fifth</td>	
+                    <td>2023-2024</td>	
+                    <td>0</td>
+                    <td>1</td>
+                    <td>2023-11-03</td>
+                    <td>2023-12-04</td>				
+                    </tr>  
+                      
+                    <tr>  
+                    <td>18</td> 
+                    <td>RAJKUMAR</td> 
+                    <td>YADAV</td> 
+                    <td>6768715663</td> 
+                    <td>21012120014</td> 
+                    <td>Information Technology</td> 
+                    <td>Third</td>	
+                    <td>Fifth</td>	
+                    <td>2023-2024</td>	
+                    <td>0</td>
+                    <td>1</td>
+                    <td>2023-11-03</td>
+                    <td>2023-12-04</td>				
+                    </tr>  
+                      
+                    <tr>  
+                    <td>19</td> 
+                    <td>ROHIT</td> 
+                    <td>SINGH</td> 
+                    <td>8656446225</td> 
+                    <td>21012120015</td> 
+                    <td>Information Technology</td> 
+                    <td>Third</td>	
+                    <td>Fifth</td>	
+                    <td>2023-2024</td>	
+                    <td>0</td>
+                    <td>1</td>
+                    <td>2023-11-03</td>
+                    <td>2023-12-04</td>				
+                    </tr>  
+                      
+                    <tr>  
+                    <td>20</td> 
+                    <td>RUDRAKSH</td> 
+                    <td></td> 
+                    <td>6711138721</td> 
+                    <td>21012120016</td> 
+                    <td>Information Technology</td> 
+                    <td>Third</td>	
+                    <td>Fifth</td>	
+                    <td>2023-2024</td>	
+                    <td>0</td>
+                    <td>1</td>
+                    <td>2023-11-03</td>
+                    <td>2023-12-04</td>				
+                    </tr>  
+                      
+                    <tr>  
+                    <td>21</td> 
+                    <td>SANA</td> 
+                    <td>BANO</td> 
+                    <td>7272715239</td> 
+                    <td>21012120017</td> 
+                    <td>Information Technology</td> 
+                    <td>Third</td>	
+                    <td>Fifth</td>	
+                    <td>2023-2024</td>	
+                    <td>0</td>
+                    <td>1</td>
+                    <td>2023-11-03</td>
+                    <td>2023-12-04</td>				
+                    </tr>  
+                      
+                    <tr>  
+                    <td>22</td> 
+                    <td>SANANDAN</td> 
+                    <td>JAIN</td> 
+                    <td>7293172163</td> 
+                    <td>21012120018</td> 
+                    <td>Information Technology</td> 
+                    <td>Third</td>	
+                    <td>Fifth</td>	
+                    <td>2023-2024</td>	
+                    <td>1</td>
+                    <td>0</td>
+                    <td>2023-11-03</td>
+                    <td>2023-12-04</td>				
+                    </tr>  
+                      
+                    <tr>  
+                    <td>23</td> 
+                    <td>SATYAM</td> 
+                    <td>SAHANI</td> 
+                    <td>7237919405</td> 
+                    <td>21012120019</td> 
+                    <td>Information Technology</td> 
+                    <td>Third</td>	
+                    <td>Fifth</td>	
+                    <td>2023-2024</td>	
+                    <td>0</td>
+                    <td>1</td>
+                    <td>2023-11-03</td>
+                    <td>2023-12-04</td>				
+                    </tr>  
+                      
+                    <tr>  
+                    <td>24</td> 
+                    <td>SHAGUN</td> 
+                    <td>GOLA</td> 
+                    <td>8976959569</td> 
+                    <td>21012120020</td> 
+                    <td>Information Technology</td> 
+                    <td>Third</td>	
+                    <td>Fifth</td>	
+                    <td>2023-2024</td>	
+                    <td>1</td>
+                    <td>0</td>
+                    <td>2023-11-03</td>
+                    <td>2023-12-04</td>				
+                    </tr>  
+                      
+                    <tr>  
+                    <td>25</td> 
+                    <td>SHIVANG</td> 
+                    <td>SEMWAL</td> 
+                    <td>7691000161</td> 
+                    <td>21012120021</td> 
+                    <td>Information Technology</td> 
+                    <td>Third</td>	
+                    <td>Fifth</td>	
+                    <td>2023-2024</td>	
+                    <td>1</td>
+                    <td>0</td>
+                    <td>2023-11-03</td>
+                    <td>2023-12-04</td>				
+                    </tr>  
+                      
+                    <tr>  
+                    <td>26</td> 
+                    <td>SUMIT</td> 
+                    <td>SHARMA</td> 
+                    <td>6701688174</td> 
+                    <td>21012120022</td> 
+                    <td>Information Technology</td> 
+                    <td>Third</td>	
+                    <td>Fifth</td>	
+                    <td>2023-2024</td>	
+                    <td>1</td>
+                    <td>0</td>
+                    <td>2023-11-03</td>
+                    <td>2023-12-04</td>				
+                    </tr>  
+                      
+                    <tr>  
+                    <td>27</td> 
+                    <td>SURAJ</td> 
+                    <td>SINGH RAWAT</td> 
+                    <td>7548333160</td> 
+                    <td>21012120023</td> 
+                    <td>Information Technology</td> 
+                    <td>Third</td>	
+                    <td>Fifth</td>	
+                    <td>2023-2024</td>	
+                    <td>0</td>
+                    <td>1</td>
+                    <td>2023-11-03</td>
+                    <td>2023-12-04</td>				
+                    </tr>  
+                      
+                    <tr>  
+                    <td>28</td> 
+                    <td>VASHU</td> 
+                    <td>KANDWAL</td> 
+                    <td>6487536861</td> 
+                    <td>21012120024</td> 
+                    <td>Information Technology</td> 
+                    <td>Third</td>	
+                    <td>Fifth</td>	
+                    <td>2023-2024</td>	
+                    <td>0</td>
+                    <td>1</td>
+                    <td>2023-11-03</td>
+                    <td>2023-12-04</td>				
+                    </tr>  
+                    </table>
