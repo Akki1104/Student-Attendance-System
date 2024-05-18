@@ -10,7 +10,7 @@ $query = "SELECT * FROM tblstudents
     INNER JOIN tblterm ON tblterm.yearId = tblstudents.yearId
     INNER JOIN tblsessionterm ON tblsessionterm.Id = tblstudents.sessionTermId
     INNER JOIN tblstudentregister ON tblstudentregister.studentId = tblstudents.Id 
-    WHERE tblstudents.Id = '$_SESSION[userId]' AND tblsessionTerm.isAdActive = '1'";
+    WHERE tblstudents.Id = '$_SESSION[userId]' AND tblsessionterm.isAdActive = '1'";
 $qry = $conn->query($query);
 $row = $qry->fetch_assoc();
 

@@ -186,7 +186,7 @@ AND tblsubject.termId = tblsessionTerm.termId AND tblsessionterm.isCtActive = '1
 FROM tblattendance
 INNER JOIN tblsessionterm ON tblsessionterm.branchId = '$_SESSION[branchId]'
 INNER JOIN tblsubject ON tblsubject.teacherId = '$_SESSION[userId]'
-WHERE tblattendance.branchId = tblsessionterm.branchId and tblattendance.yearId = tblsessionterm.yearId AND tblattendance.subjectId = tblsubject.Id AND tblsessionterm.isCtActive = '1' AND tblattendance.status = '1'");
+WHERE tblattendance.branchId = tblsessionterm.branchId and tblattendance.yearId = tblsessionterm.yearId AND tblattendance.subjectId = tblsubject.Id AND tblsessionterm.isCtActive = '1' AND tblattendance.sessionTermId = tblsessionterm.Id AND tblattendance.status = '1'");
             $totAttendance = mysqli_num_rows($query5);
             ?>
             <div class="col-xl-3 col-md-6 mb-4">

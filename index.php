@@ -118,7 +118,7 @@ include 'Includes/postDataUnset.php';
                                                       </div>";
                                             }
                                         } else if ($userType == "Student") {
-                                            $query = "SELECT tblstudentregister.studentId AS Id, tblstudents.firstName AS firstName, tblstudents.lastName AS lastName, tblstudentregister.emailAddress AS emailAddress, tblstudents.branchId AS branchId, tblstudents.yearId AS yearId FROM tblstudentregister INNER JOIN tblstudents ON tblstudentregister.studentId = tblstudents.Id INNER JOIN tblsessionterm ON tblsessionterm.Id = tblstudents.sessionTermId WHERE tblstudentregister.emailAddress = '$username' AND tblstudentregister.pass = '$password' AND tblsessionterm.isAdActive = '1'";
+                                            $query = "SELECT tblstudentregister.studentId AS Id, tblstudents.firstName AS firstName, tblstudents.lastName AS lastName, tblstudentregister.emailAddress AS emailAddress, tblstudents.branchId AS branchId, tblstudents.yearId AS yearId FROM tblstudentregister INNER JOIN tblstudents ON tblstudentregister.studentId = tblstudents.Id INNER JOIN tblsessionterm ON tblsessionterm.Id = tblstudents.sessionTermId WHERE tblstudentregister.emailAddress = '$username' AND tblstudentregister.pass = '$password'";
                                             $rs = $conn->query($query);
                                             $num = $rs->num_rows;
                                             $rows = $rs->fetch_assoc();

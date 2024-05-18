@@ -142,7 +142,7 @@ if (isset($_POST['update'])) {
                       <?php
                       $qury = "SELECT tblsubject.Id As Id, tblsubject.subjectName AS subjectName from tblsubject
                                 INNER JOIN tblsessionterm ON tblsessionterm.branchId = '$_SESSION[branchId]'
-                                WHERE tblsubject.teacherId = '$_SESSION[userId]' AND tblsubject.yearId = tblsessionterm.yearId AND tblsessionterm.isCtActive = '1'";
+                                WHERE tblsubject.teacherId = '$_SESSION[userId]' AND tblsubject.yearId = tblsessionterm.yearId AND tblsessionterm.termId = tblsubject.termId AND tblsessionterm.isCtActive = '1'";
                       $result = $conn->query($qury);
                       $num = $result->num_rows;
                       if ($num > 0) {
@@ -169,7 +169,7 @@ if (isset($_POST['update'])) {
                         $query = "SELECT *
                         FROM tblstudents
                         INNER JOIN tblsessionterm ON tblsessionterm.branchId = '$_SESSION[branchId]'
-                        WHERE tblstudents.yearId = tblsessionterm.yearId AND tblsessionterm.isCtActive = '1' ORDER BY tblStudents.rollNumber ASC";
+                        WHERE tblstudents.yearId = tblsessionterm.yearId AND tblsessionterm.Id = tblstudents.sessionTermId AND tblsessionterm.isCtActive = '1' ORDER BY tblStudents.rollNumber ASC";
                         $rs = $conn->query($query);
                         $num = $rs->num_rows;
                         $sn = 0;

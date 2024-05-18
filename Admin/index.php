@@ -85,7 +85,7 @@ include '../Includes/session.php';
             </div>
             <?php
             $query3 = mysqli_query($conn, "SELECT * FROM tblyear 
-            INNER JOIN tblsessionTerm ON tblsessionTerm.yearId = tblyear.Id WHERE tblsessionTerm.isAdActive = '1'");
+            INNER JOIN tblsessionterm ON tblsessionterm.yearId = tblyear.Id WHERE tblsessionterm.isAdActive = '1'");
             $num = $query3->num_rows;
             ?>
             <!-- Year Card -->
@@ -108,7 +108,7 @@ include '../Includes/session.php';
             </div>
             <!-- Session and Terms Card  -->
             <?php
-            $query1 = mysqli_query($conn, "SELECT * FROM tblsessionterm WHERE tblsessionTerm.isAdActive = '1'");
+            $query1 = mysqli_query($conn, "SELECT * FROM tblsessionterm WHERE tblsessionterm.isAdActive = '1'");
             $sessTerm = mysqli_num_rows($query1);
             ?>
             <div class="col-xl-3 col-md-6 mb-4">
@@ -180,7 +180,7 @@ include '../Includes/session.php';
             </div>
             <!-- Subject Card -->
             <?php
-            $queryy = mysqli_query($conn, "SELECT * FROM tblsubject");
+            $queryy = mysqli_query($conn, "SELECT * FROM tblsubject INNER JOIN tblsessionterm ON tblsessionterm.termId = tblsubject.termId WHERE tblsessionterm.isAdActive = '1'");
             $subject = mysqli_num_rows($queryy);
             ?>
             <div class="col-xl-3 col-md-6 mb-4">
@@ -204,7 +204,7 @@ include '../Includes/session.php';
             </div>
             <!-- Attendance Card -->
             <?php
-            $query1 = mysqli_query($conn, "SELECT * FROM tblattendance WHERE tblattendance.status = '1'");
+            $query1 = mysqli_query($conn, "SELECT * FROM tblattendance INNER JOIN tblsessionterm ON tblsessionterm.termId = tblattendance.sessionTermId WHERE tblsessionterm.isAdActive = '1' AND tblattendance.status = '1'");
             $totAttendance = mysqli_num_rows($query1);
             ?>
             <div class="col-xl-3 col-md-6 mb-4">

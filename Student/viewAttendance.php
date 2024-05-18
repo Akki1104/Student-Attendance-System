@@ -78,8 +78,7 @@ include '../Includes/postDataUnset.php';
                         <label class="form-control-label">Subject<span class="text-danger ml-2">*</span></label>
                         <?php
                         $qury = "SELECT tblsubject.Id AS Id, tblsubject.subjectName AS subjectName FROM tblsubject
-                        LEFT JOIN tblstudents ON tblstudents.Id = '$_SESSION[userId]' 
-                        LEFT JOIN tblsessionterm ON tblsessionterm.Id = tblstudents.sessionTermId
+                        LEFT JOIN tblsessionterm ON tblsessionterm.termId = tblsubject.termId
                         WHERE tblsessionterm.branchId = tblsubject.branchId 
                         AND tblsessionterm.yearId = tblsubject.yearId AND tblsessionterm.isAdActive = '1'";
                         $result = $conn->query($qury);

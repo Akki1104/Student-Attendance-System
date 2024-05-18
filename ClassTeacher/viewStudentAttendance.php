@@ -103,7 +103,7 @@ include '../Includes/postDataUnset.php';
                         <?php
                         $qury = "SELECT tblsubject.Id As Id, tblsubject.subjectName AS subjectName from tblsubject
                                 INNER JOIN tblsessionterm ON tblsessionterm.branchId = '$_SESSION[branchId]'
-                                WHERE tblsubject.teacherId = '$_SESSION[userId]' AND tblsubject.yearId = tblsessionterm.yearId AND tblsessionterm.isCtActive = '1'";
+                                WHERE tblsubject.teacherId = '$_SESSION[userId]' AND tblsubject.yearId = tblsessionterm.yearId AND tblsubject.termId = tblsessionterm.termId AND tblsessionterm.isCtActive = '1'";
                         $result = $conn->query($qury);
                         $num = $result->num_rows;
                         if ($num > 0) {

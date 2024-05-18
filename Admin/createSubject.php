@@ -75,7 +75,7 @@ if (isset($_GET['Id']) && isset($_GET['action']) && $_GET['action'] == "edit") {
 if (isset($_GET['Id']) && isset($_GET['action']) && $_GET['action'] == "delete") {
   $Id = $_GET['Id'];
 
-  $query2 = mysqli_query($conn, "DELETE  FROM tblsubject WHERE Id = '$Id'");
+  $query2 = mysqli_query($conn, "DELETE FROM tblsubject WHERE Id = '$Id'");
 
   if ($query2 == TRUE) {
 
